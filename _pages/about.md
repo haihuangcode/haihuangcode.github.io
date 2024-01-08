@@ -16,7 +16,9 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-I am a first-year Master's student in Artificial Intelligence at the Software College of Zhejiang University, with a research focus on multimodal.
+<span class='anchor' id='about-me'></span>
+
+I am a first-year Master's student in Artificial Intelligence at the Software College of Zhejiang University, with a research focus on multimodal and  currently looking for an internship.
 
 # 📝 Publications 
 
