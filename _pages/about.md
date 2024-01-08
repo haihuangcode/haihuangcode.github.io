@@ -24,8 +24,6 @@ I am a first-year Master's student in Artificial Intelligence at the Software Co
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='../images/Achieving Cross Modal Generalization with Multimodal Unified Representation_overview.png' alt="CMG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
-
 [Achieving Cross Modal Generalization with Multimodal Unified Representation](https://openreview.net/pdf?id=t7ZowrDWVw)
 
 Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
