@@ -1,28 +1,12 @@
----
-permalink: /
-title: ""
-excerpt: ""
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<span class='anchor' id='about-me'></span>
-
 I am a first-year Master's student in Artificial Intelligence at the Software College of Zhejiang University, with a research focus on multimodal.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='images/Achieving Cross Modal Generalization with Multimodal Unified Representation_overview.png' alt="CMG" width="100%"></div></div>
+\* indicates equal contribution.
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='../images/Achieving Cross Modal Generalization with Multimodal Unified Representation_overview.png' alt="CMG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 
 [Achieving Cross Modal Generalization with Multimodal Unified Representation](https://openreview.net/pdf?id=t7ZowrDWVw)
 
