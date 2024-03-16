@@ -33,17 +33,19 @@ I am a first-year Master's student in Artificial Intelligence at the Software Co
 Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 
 [**Project**](https://github.com/haihuangcode/CMG) <strong><span class='show_paper_citations' data='FKvBzQwAAAAJ:u5HHmVD_uO8C'></span></strong>
-
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/Unlocking the Potential of Multimodal Unified Discrete Representation through Training-Free Codebook Optimization and Hierarchical Alignment.jpg' alt="CMG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Unlocking the Potential of Multimodal Unified Discrete Representation through Training-Free Codebook Optimization and Hierarchical Alignment](https://arxiv.org/pdf/2403.05168.pdf)
 
-Hai Huang\*, Yan Xia\*, Shengpeng Ji, Shulei Wang, Hanting Wang, Jieming Zhu, Zhenhua Dong, Zhou Zhao
+**Hai Huang\***, Yan Xia\*, Shengpeng Ji, Shulei Wang, Hanting Wang, Jieming Zhu, Zhenhua Dong, Zhou Zhao
 
 [**Project**](https://github.com/haihuangcode/TOC_H-DCID) <strong><span class='show_paper_citations' data='FKvBzQwAAAAJ:u-x6o8ySG0sC'></span></strong>
-
+</div>
+</div>
 
 # 🎖 Honors and Awards
 - *2021.10* First Prize in the [RoboMaster Robotics Competition](https://www.robomaster.com)
