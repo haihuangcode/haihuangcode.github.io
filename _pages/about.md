@@ -22,8 +22,9 @@ I am a first-year Master's student in Artificial Intelligence at the Software Co
 
 # 📝 Publications 
 
+
+\* indicates equal contribution.
 </div>
-- \* indicates equal contribution.
 </div>
 
 
