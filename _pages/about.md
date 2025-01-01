@@ -18,14 +18,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a first-year Master's student in Artificial Intelligence at the Software College of Zhejiang University, with a research focus on multimodal and  currently looking for an internship.
+I am a second-year Master's student in Artificial Intelligence at the Software College of Zhejiang University, with a research focus on multimodal and  currently looking for an internship.
 
 # 📝 Publications 
 
 
 \* indicates equal contribution.
-</div>
-</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='../images/Achieving Cross Modal Generalization with Multimodal Unified Representation_overview.png' alt="CMG" width="100%"></div></div>
@@ -39,14 +37,13 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/Unlocking the Potential of Multimodal Unified Discrete Representation through Training-Free Codebook Optimization and Hierarchical Alignment.jpg' alt="CMG" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='../images/icassp2025_framework.jpg' alt="CMG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Unlocking the Potential of Multimodal Unified Discrete Representation through Training-Free Codebook Optimization and Hierarchical Alignment](https://arxiv.org/pdf/2403.05168.pdf)
+[Semantic Residual for Multimodal Unified Discrete Representation ](https://arxiv.org/pdf/2412.19128.pdf)
 
-**Hai Huang\***, Yan Xia\*, Shengpeng Ji, Shulei Wang, Hanting Wang, Jieming Zhu, Zhenhua Dong, Zhou Zhao
+**Hai Huang**, Shulei Wang, Yan Xia
 
-[**Project**](https://github.com/haihuangcode/TOC_H-DCID) <strong><span class='show_paper_citations' data='FKvBzQwAAAAJ:u-x6o8ySG0sC'></span></strong>
 </div>
 </div>
 
