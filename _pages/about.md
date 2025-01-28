@@ -40,9 +40,19 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='../images/icassp2025_framework.jpg' alt="CMG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Semantic Residual for Multimodal Unified Discrete Representation ](https://arxiv.org/pdf/2412.19128.pdf)
+[Semantic Residual for Multimodal Unified Discrete Representation](https://arxiv.org/pdf/2412.19128.pdf)
 
 **Hai Huang**, Shulei Wang, Yan Xia
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025 Findings</div><img src='../images/Overcoming both Domain Shift and Label Shift for Referring Video Segmentation.jpg' alt="CMG" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Overcoming both Domain Shift and Label Shift for Referring Video Segmentation](https://openreview.net/attachment?id=mPAhClBy8F&name=pdf)
+
+**Hai Huang**, Sashuai Zhou, Yan Xia
 
 </div>
 </div>
