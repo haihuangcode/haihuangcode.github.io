@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a second-year Master's student in Artificial Intelligence at the Software College of Zhejiang University, with a research focus on multimodal and  currently looking for an internship.
+I am a second-year Master's student in Artificial Intelligence at the Software College of Zhejiang University, with a research focus on multimodal.
 
 # 📝 Publications 
 
@@ -47,7 +47,7 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025 Findings</div><img src='../images/Overcoming both Domain Shift and Label Shift for Referring Video Segmentation.jpg' alt="CMG" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025</div><img src='../images/Overcoming both Domain Shift and Label Shift for Referring Video Segmentation.jpg' alt="CMG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Overcoming both Domain Shift and Label Shift for Referring Video Segmentation](https://openreview.net/attachment?id=mPAhClBy8F&name=pdf)
@@ -56,6 +56,8 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 
 </div>
 </div>
+
+``NAACL 2025`` [Omni-Chart-600K: A Comprehensive Dataset of Chart Types for Chart Understanding](), Shulei Wang, Shuai Yang, Wang Lin, Zirun Guo, Sihang Cai, **Hai Huang**, Ye Wang, Jingyuan Chen, Tao Jin
 
 # 🎖 Honors and Awards
 - *2021.10* First Prize in the [RoboMaster Robotics Competition](https://www.robomaster.com)
