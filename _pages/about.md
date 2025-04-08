@@ -58,7 +58,9 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 </div>
 
 ``NAACL 2025`` [Omni-Chart-600K: A Comprehensive Dataset of Chart Types for Chart Understanding](), Shulei Wang, Shuai Yang, Wang Lin, Zirun Guo, Sihang Cai, **Hai Huang**, Ye Wang, Jingyuan Chen, Tao Jin
+
 ``CVPR 2025`` [Towards Transformer-Based Aligned Generation with Self-Coherence Guidance](https://arxiv.org/pdf/2503.17675), Shulei Wang, Wang Lin, **Hai Huang**, Hanting Wang, Sihang Cai, WenKang Han, Tao Jin, Jingyuan Chen, Jiacheng Sun, Jieming Zhu, Zhou Zhao
+
 ``ICME 2025`` [Enhancing Multi-modal Models with Heterogeneous MoE Adapters for Fine-tuning](), Sashuai Zhou, **Hai Huang**, Yan Xia
 
 # 🎖 Honors and Awards
