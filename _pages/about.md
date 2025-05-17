@@ -37,6 +37,16 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='../images/ACL2025_TOC.jpg' alt="CMG" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Enhancing Multimodal Unified Representations for Cross Modal Generalization](https://haihuangcode.github.io/)
+
+**Hai Huang\***, Yan Xia\*, Shengpeng Ji, Shulei Wang, Hanting Wang, Minghui Fang, Jieming Zhu, Zhenhua Dong, Sashuai Zhou, Zhou Zhao
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='../images/icassp2025_framework.jpg' alt="CMG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -50,18 +60,26 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025</div><img src='../images/Overcoming both Domain Shift and Label Shift for Referring Video Segmentation.jpg' alt="CMG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Overcoming both Domain Shift and Label Shift for Referring Video Segmentation](https://openreview.net/attachment?id=mPAhClBy8F&name=pdf)
+[Overcoming both Domain Shift and Label Shift for Referring Video Segmentation](https://aclanthology.org/2025.findings-naacl.167.pdf)
 
 **Hai Huang**, Sashuai Zhou, Yan Xia
 
 </div>
 </div>
 
-``NAACL 2025`` [Omni-Chart-600K: A Comprehensive Dataset of Chart Types for Chart Understanding](), Shulei Wang, Shuai Yang, Wang Lin, Zirun Guo, Sihang Cai, **Hai Huang**, Ye Wang, Jingyuan Chen, Tao Jin
+``ACL 2025`` [Towards Simultaneous and Independent Zero-shot Speaker Cloning and Zero-shot Language Style Control](), Shengpeng Ji, Qian Chen, Wen Wang, Jialong Zuo, Minghui Fang, Ziyue Jiang, **Hai Huang**, Zehan Wang, Xize Cheng, Siqi Zheng, Zhou Zhao
+
+``ACL 2025`` [Bridging Discrete Codec Representations and Speech Language Models](), Shengpeng Ji, Minghui Fang, Jialong Zuo, Ziyue Jiang, Dingdong WANG, Hanting Wang, **Hai Huang**, Zhou Zhao
+
+``ACL 2025`` [ACE: A Generative Cross-Modal Retrieval Framework With Coarse-To-Fine Semantic Modeling](), Minghui Fang, Shengpeng Ji, Jialong Zuo, **Hai Huang**, Yan Xia, Jieming Zhu, Xize Cheng, Xiaoda Yang, Wenrui Liu, Gang Wang, Zhenhua Dong, Zhou Zhao
+
+``ICML 2025`` [IRBridge: Solving Image Restoration Bridge with Pre-trained Generative Diffusion Models](), Hanting Wang, Tao Jin, Wang Lin, Shulei Wang, **Hai Huang**, Shengpeng Ji, Zhou Zhao
+
+``NAACL 2025`` [Omni-Chart-600K: A Comprehensive Dataset of Chart Types for Chart Understanding](https://aclanthology.org/2025.findings-naacl.226.pdf), Shulei Wang, Shuai Yang, Wang Lin, Zirun Guo, Sihang Cai, **Hai Huang**, Ye Wang, Jingyuan Chen, Tao Jin
 
 ``CVPR 2025`` [Towards Transformer-Based Aligned Generation with Self-Coherence Guidance](https://arxiv.org/pdf/2503.17675), Shulei Wang, Wang Lin, **Hai Huang**, Hanting Wang, Sihang Cai, WenKang Han, Tao Jin, Jingyuan Chen, Jiacheng Sun, Jieming Zhu, Zhou Zhao
 
-``ICME 2025`` [Enhancing Multi-modal Models with Heterogeneous MoE Adapters for Fine-tuning](), Sashuai Zhou, **Hai Huang**, Yan Xia
+``ICME 2025`` [Enhancing Multi-modal Models with Heterogeneous MoE Adapters for Fine-tuning](https://arxiv.org/pdf/2503.20633), Sashuai Zhou, **Hai Huang**, Yan Xia
 
 # 🎖 Honors and Awards
 - *2021.10* First Prize in the [RoboMaster Robotics Competition](https://www.robomaster.com)
