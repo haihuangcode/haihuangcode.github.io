@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a second-year Master's student in Artificial Intelligence at the Software College of Zhejiang University, with a research focus on multimodal.
+I will graduate in 2026 and am currently seeking job opportunities. If you are interested, please feel free to contact me. My research focuses on unified multimodal representation/alignment and image generation.
 
 # 📝 Publications 
 
@@ -111,4 +111,4 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 - *2019.09 - 2023.06*, earned bachelor's in Computer Science and Technology from Northeastern University(China)
 
 # 💻 Internships
-- I am currently looking for an internship.
+- *2025.01 - 2025.07*, Pretraining a 5B-parameter image generation model (DiT)
