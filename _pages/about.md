@@ -107,8 +107,8 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 - *2021.10* First Prize in the [RoboMaster Robotics Competition](https://www.robomaster.com)
 
 # 📖 Educations
-- *2023.09 - (now)*, pursuing a master's in Artificial Intelligence at Zhejiang University
-- *2019.09 - 2023.06*, earned bachelor's in Computer Science and Technology from Northeastern University(China)
+- *2023.09 - 2026.03*, master, Artificial Intelligence, Zhejiang University
+- *2019.09 - 2023.06*, bachelor, Computer Science and Technology, Northeastern University(China)
 
 # 💻 Internships
-- *2025.01 - 2025.07*, Pretraining a 5B-parameter image generation model (DiT)
+- *2025.01 - 2025.07*, Pretraining a 6B-parameter image generation model (DiT)
