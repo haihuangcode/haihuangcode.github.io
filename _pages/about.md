@@ -98,6 +98,8 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 
 ``ACL 2025`` [ACE: A Generative Cross-Modal Retrieval Framework With Coarse-To-Fine Semantic Modeling](), Minghui Fang, Shengpeng Ji, Jialong Zuo, **Hai Huang**, Yan Xia, Jieming Zhu, Xize Cheng, Xiaoda Yang, Wenrui Liu, Gang Wang, Zhenhua Dong, Zhou Zhao
 
+``ACM MM 2025`` [TAP: Parameter-efficient Task-Aware Prompting for Adverse Weather Removal](), Hanting Wang, Shulei Wang, Shengpeng Ji, **Hai Huang**, Xiao Jin, Qifei Zhang, Tao Jin
+
 ``ICME 2025 (Oral)`` [Enhancing Multi-modal Models with Heterogeneous MoE Adapters for Fine-tuning](https://arxiv.org/pdf/2503.20633), Sashuai Zhou, **Hai Huang**, Yan Xia
 
 ``NAACL 2025`` [Omni-Chart-600K: A Comprehensive Dataset of Chart Types for Chart Understanding](https://aclanthology.org/2025.findings-naacl.226.pdf), Shulei Wang, Shuai Yang, Wang Lin, Zirun Guo, Sihang Cai, **Hai Huang**, Ye Wang, Jingyuan Chen, Tao Jin
