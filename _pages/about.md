@@ -33,7 +33,7 @@ I will graduate in 2026 and am currently seeking job opportunities. If you are i
 
 Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 
-[**Project**](https://github.com/haihuangcode/CMG) <strong><span class='show_paper_citations' data='FKvBzQwAAAAJ:u5HHmVD_uO8C'></span></strong>
+[**Project**]([https://github.com/haihuangcode/CMG](https://github.com/haihuangcode/CMG)) <strong><span class='show_paper_citations' data='FKvBzQwAAAAJ:u5HHmVD_uO8C'></span></strong>
 </div>
 </div>
 
@@ -54,7 +54,7 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 
 **Hai Huang**, Yan Xia, Shulei Wang, Hanting Wang, Minghui Fang, Shengpeng Ji, Sashuai Zhou, Tao Jin, Zhou Zhao
 
-[**Project**](https://github.com/haihuangcode/CMG/ICCV25-OSCMG)
+[**Project**]([https://github.com/haihuangcode/CMG/ICCV25-OSCMG](https://github.com/haihuangcode/CMG/tree/master/ICCV25-OSCMG))
 
 </div>
 </div>
@@ -67,7 +67,7 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 
 **Hai Huang\***, Yan Xia\*, Shengpeng Ji, Shulei Wang, Hanting Wang, Minghui Fang, Jieming Zhu, Zhenhua Dong, Sashuai Zhou, Zhou Zhao
 
-[**Project**](https://github.com/haihuangcode/CMG/ACL25-FCID&TOC)
+[**Project**]([https://github.com/haihuangcode/CMG/ACL25-FCID&TOC](https://github.com/haihuangcode/CMG/tree/master/ACL25-FCID%26TOC))
 
 </div>
 </div>
