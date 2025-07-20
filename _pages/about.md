@@ -54,6 +54,8 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 
 **Hai Huang**, Yan Xia, Shulei Wang, Hanting Wang, Minghui Fang, Shengpeng Ji, Sashuai Zhou, Tao Jin, Zhou Zhao
 
+[**Project**](https://github.com/haihuangcode/CMG/ICCV25-OSCMG)
+
 </div>
 </div>
 
@@ -64,6 +66,8 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 [Enhancing Multimodal Unified Representations for Cross Modal Generalization](https://haihuangcode.github.io/)
 
 **Hai Huang\***, Yan Xia\*, Shengpeng Ji, Shulei Wang, Hanting Wang, Minghui Fang, Jieming Zhu, Zhenhua Dong, Sashuai Zhou, Zhou Zhao
+
+[**Project**](https://github.com/haihuangcode/CMG/ACL25-FCID&TOC)
 
 </div>
 </div>
