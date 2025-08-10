@@ -18,7 +18,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I will graduate in 2026 and am currently seeking job opportunities. If you are interested, please feel free to contact me. My research focuses on unified multimodal representation/alignment and image generation.
+I am expected to graduate in 2026 and am currently seeking job opportunities.  
+If you are interested, please feel free to contact me at **haihuangcode@outlook.com**.  
+My research focuses on **unified multimodal representation/alignment** and **image generation**.
 
 # 📝 Publications 
 
