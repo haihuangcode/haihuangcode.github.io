@@ -94,13 +94,15 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 </div>
 </div>
 
+``EMNLP 2025`` [RecBase: Generative Foundation Model Pretraining for Zero-Shot Recommendation](), Sashuai Zhou, Weinan Gan, Qijiong Liu, Ke Lei, Jieming Zhu, **Hai Huang**, Yan Xia, Ruiming Tang, Zhenhua Dong, Zhou Zhao
+
 ``ICML 2025`` [IRBridge: Solving Image Restoration Bridge with Pre-trained Generative Diffusion Models](), Hanting Wang, Tao Jin, Wang Lin, Shulei Wang, **Hai Huang**, Shengpeng Ji, Zhou Zhao
 
 ``CVPR 2025`` [Towards Transformer-Based Aligned Generation with Self-Coherence Guidance](https://arxiv.org/pdf/2503.17675), Shulei Wang, Wang Lin, **Hai Huang**, Hanting Wang, Sihang Cai, WenKang Han, Tao Jin, Jingyuan Chen, Jiacheng Sun, Jieming Zhu, Zhou Zhao
 
 ``ACL 2025`` [Towards Simultaneous and Independent Zero-shot Speaker Cloning and Zero-shot Language Style Control](), Shengpeng Ji, Qian Chen, Wen Wang, Jialong Zuo, Minghui Fang, Ziyue Jiang, **Hai Huang**, Zehan Wang, Xize Cheng, Siqi Zheng, Zhou Zhao
 
-``ACL 2025`` [Bridging Discrete Codec Representations and Speech Language Models](), Shengpeng Ji, Minghui Fang, Jialong Zuo, Ziyue Jiang, Dingdong WANG, Hanting Wang, **Hai Huang**, Zhou Zhao
+``ACL 2025 (Oral)`` [Bridging Discrete Codec Representations and Speech Language Models](), Shengpeng Ji, Minghui Fang, Jialong Zuo, Ziyue Jiang, Dingdong WANG, Hanting Wang, **Hai Huang**, Zhou Zhao
 
 ``ACL 2025`` [ACE: A Generative Cross-Modal Retrieval Framework With Coarse-To-Fine Semantic Modeling](), Minghui Fang, Shengpeng Ji, Jialong Zuo, **Hai Huang**, Yan Xia, Jieming Zhu, Xize Cheng, Xiaoda Yang, Wenrui Liu, Gang Wang, Zhenhua Dong, Zhou Zhao
 
@@ -112,6 +114,7 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 
 
 # 🎖 Honors and Awards
+- *2025.10* National Scholarship
 - *2021.10* First Prize in the [RoboMaster Robotics Competition](https://www.robomaster.com)
 
 # 📖 Educations
@@ -119,4 +122,4 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 - *2019.09 - 2023.06*, bachelor, Computer Science and Technology, Northeastern University(China)
 
 # 💻 Internships
-- *2025.01 - 2025.07*, Pretraining a 6B-parameter image generation model (DiT)
+- *2025.01 - 2025.07*, Huawei, Pretraining a 6B-parameter image generation model (DiT)
