@@ -18,7 +18,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a researcher at the Meituan LongCat Team, focusing on omni-modal models.
+I am a researcher at the **Meituan LongCat Team**, focusing on **omni-modal models**.
 If you are interested, please feel free to contact me at **haihuangcode@outlook.com**.  
 
 # 📝 Publications 
