@@ -18,9 +18,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am expected to graduate in 2026 and am currently seeking job opportunities.  
+I am a researcher at the Meituan LongCat Team, focusing on omni-modal models.
 If you are interested, please feel free to contact me at **haihuangcode@outlook.com**.  
-My research focuses on **unified multimodal representation/alignment** and **image generation**.
 
 # 📝 Publications 
 
@@ -118,8 +117,8 @@ Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
 - *2021.10* First Prize in the [RoboMaster Robotics Competition](https://www.robomaster.com)
 
 # 📖 Educations
-- *2023.09 - 2026.03*, master, Artificial Intelligence, Zhejiang University
-- *2019.09 - 2023.06*, bachelor, Computer Science and Technology, Northeastern University(China)
+- *2023.09 - 2026.03*, M.S. in Artificial Intelligence, Zhejiang University
+- *2019.09 - 2023.06*, B.S. in Computer Science and Technology, Northeastern University (China)
 
 # 💻 Internships
 - *2025.01 - 2025.07*, Huawei, Pretraining a 6B-parameter image generation model (DiT)
