@@ -1,11 +1,13 @@
 ---
+
 permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+redirect_from:
+
+* /about/
+* /about.html
 
 ---
 
@@ -16,109 +18,204 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<style>
+.profile-intro {
+  margin-bottom: 2rem;
+  line-height: 1.75;
+  color: #444;
+}
+
+.profile-intro strong {
+  color: #222;
+}
+
+.research-tags {
+  margin-top: 0.7rem;
+}
+
+.research-tags span {
+  display: inline-block;
+  margin: 0.15rem 0.25rem 0.15rem 0;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  color: #555;
+  background: #f6f6f6;
+  border: 1px solid #e9e9e9;
+}
+
+.pub-card {
+  display: flex;
+  gap: 1rem;
+  margin: 1.15rem 0 1.45rem;
+  padding: 1rem;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.035);
+}
+
+.pub-card-image {
+  flex: 0 0 34%;
+  max-width: 34%;
+}
+
+.pub-card-image img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  background: #fafafa;
+}
+
+.pub-card-body {
+  flex: 1;
+  line-height: 1.6;
+}
+
+.pub-venue {
+  display: inline-block;
+  margin-bottom: 0.35rem;
+  padding: 0.15rem 0.48rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #555;
+  background: #f4f5f7;
+  border: 1px solid #e7e8ea;
+}
+
+.pub-title {
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+}
+
+.pub-authors {
+  margin-bottom: 0.35rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.pub-links {
+  font-size: 0.92rem;
+}
+
+.note {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .pub-card {
+    display: block;
+  }
+
+  .pub-card-image {
+    max-width: 100%;
+    margin-bottom: 0.8rem;
+  }
+}
+</style>
+
 <span class='anchor' id='about-me'></span>
 
-I am a researcher at the **Meituan LongCat Team**, focusing on **omni-modal models**.
-If you are interested, please feel free to contact me at **haihuangcode@outlook.com**.  
+<div class="profile-intro" markdown="1">
 
-# 📝 Publications 
+I am currently with the **Meituan LongCat Team**, working on **unified multimodal models**.
 
+Please feel free to contact me at **[haihuangcode@outlook.com](mailto:haihuangcode@outlook.com)**.
 
-\* indicates equal contribution.
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2023</div><img src='../images/Achieving Cross Modal Generalization with Multimodal Unified Representation_overview.png' alt="CMG" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Achieving Cross Modal Generalization with Multimodal Unified Representation](https://proceedings.neurips.cc/paper_files/paper/2023/hash/c89f09849eb5af489abb122394ff0f0b-Abstract-Conference.html)
-
-Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao
-
-[**Project**](https://github.com/haihuangcode/CMG) <strong><span class='show_paper_citations' data='FKvBzQwAAAAJ:u5HHmVD_uO8C'></span></strong>
-</div>
+<div class="research-tags">
+<span>Multimodal Learning</span>
+<span>Unified Multimodal Models</span>
+<span>Cross-modal Generalization</span>
+<span>Understanding and Generation</span>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='../images/URMMDG_framework.jpg' alt="CMG" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Bridging Domain Generalization to Multimodal Domain Generalization via Unified Representations](https://haihuangcode.github.io/)
-
-**Hai Huang**, Yan Xia, Sashuai Zhou, Hanting Wang, Shulei Wang, Zhou Zhao
-
-</div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='../images/OSCMG_framework.jpg' alt="CMG" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# Publications
 
-[Open-set Cross Modal Generalization via Multimodal Unified Representation](https://haihuangcode.github.io/)
+<span class="note">* indicates equal contribution.</span>
 
-**Hai Huang**, Yan Xia, Shulei Wang, Hanting Wang, Minghui Fang, Shengpeng Ji, Sashuai Zhou, Tao Jin, Zhou Zhao
-
-[**Project**](https://github.com/haihuangcode/CMG/tree/master/ICCV25-OSCMG)
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025</div><img src='../images/ACL2025_TOC.jpg' alt="CMG" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Enhancing Multimodal Unified Representations for Cross Modal Generalization](https://haihuangcode.github.io/)
-
-**Hai Huang\***, Yan Xia\*, Shengpeng Ji, Shulei Wang, Hanting Wang, Minghui Fang, Jieming Zhu, Zhenhua Dong, Sashuai Zhou, Zhou Zhao
-
-[**Project**](https://github.com/haihuangcode/CMG/tree/master/ACL25-FCID%26TOC)
-
-</div>
+<div class="pub-card">
+  <div class="pub-card-image">
+    <img src="{{ '/images/Achieving Cross Modal Generalization with Multimodal Unified Representation_overview.png' | relative_url }}" alt="CMG">
+  </div>
+  <div class="pub-card-body" markdown="1">
+    <div class="pub-venue">NeurIPS 2023</div>
+    <div class="pub-title" markdown="1">[Achieving Cross Modal Generalization with Multimodal Unified Representation](https://proceedings.neurips.cc/paper_files/paper/2023/hash/c89f09849eb5af489abb122394ff0f0b-Abstract-Conference.html)</div>
+    <div class="pub-authors" markdown="1">Yan Xia\*, **Hai Huang\***, Jieming Zhu, Zhou Zhao</div>
+    <div class="pub-links" markdown="1">[Project](https://github.com/haihuangcode/CMG) <strong><span class='show_paper_citations' data='FKvBzQwAAAAJ:u5HHmVD_uO8C'></span></strong></div>
+  </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='../images/icassp2025_framework.jpg' alt="CMG" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Semantic Residual for Multimodal Unified Discrete Representation](https://arxiv.org/pdf/2412.19128.pdf)
-
-**Hai Huang**, Shulei Wang, Yan Xia
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2025</div><img src='../images/Overcoming both Domain Shift and Label Shift for Referring Video Segmentation.jpg' alt="CMG" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Overcoming both Domain Shift and Label Shift for Referring Video Segmentation](https://aclanthology.org/2025.findings-naacl.167.pdf)
-
-**Hai Huang**, Sashuai Zhou, Yan Xia
-
-</div>
+<div class="pub-card">
+  <div class="pub-card-image">
+    <img src="{{ '/images/URMMDG_framework.jpg' | relative_url }}" alt="URMMDG">
+  </div>
+  <div class="pub-card-body" markdown="1">
+    <div class="pub-venue">ICCV 2025</div>
+    <div class="pub-title" markdown="1">Bridging Domain Generalization to Multimodal Domain Generalization via Unified Representations</div>
+    <div class="pub-authors" markdown="1">**Hai Huang**, Yan Xia, Sashuai Zhou, Hanting Wang, Shulei Wang, Zhou Zhao</div>
+  </div>
 </div>
 
-``EMNLP 2025`` [RecBase: Generative Foundation Model Pretraining for Zero-Shot Recommendation](), Sashuai Zhou, Weinan Gan, Qijiong Liu, Ke Lei, Jieming Zhu, **Hai Huang**, Yan Xia, Ruiming Tang, Zhenhua Dong, Zhou Zhao
+<div class="pub-card">
+  <div class="pub-card-image">
+    <img src="{{ '/images/OSCMG_framework.jpg' | relative_url }}" alt="OSCMG">
+  </div>
+  <div class="pub-card-body" markdown="1">
+    <div class="pub-venue">ICCV 2025</div>
+    <div class="pub-title" markdown="1">Open-set Cross Modal Generalization via Multimodal Unified Representation</div>
+    <div class="pub-authors" markdown="1">**Hai Huang**, Yan Xia, Shulei Wang, Hanting Wang, Minghui Fang, Shengpeng Ji, Sashuai Zhou, Tao Jin, Zhou Zhao</div>
+    <div class="pub-links" markdown="1">[Project](https://github.com/haihuangcode/CMG/tree/master/ICCV25-OSCMG)</div>
+  </div>
+</div>
 
-``ICML 2025`` [IRBridge: Solving Image Restoration Bridge with Pre-trained Generative Diffusion Models](), Hanting Wang, Tao Jin, Wang Lin, Shulei Wang, **Hai Huang**, Shengpeng Ji, Zhou Zhao
+<div class="pub-card">
+  <div class="pub-card-image">
+    <img src="{{ '/images/ACL2025_TOC.jpg' | relative_url }}" alt="TOC">
+  </div>
+  <div class="pub-card-body" markdown="1">
+    <div class="pub-venue">ACL 2025 Findings</div>
+    <div class="pub-title" markdown="1">Enhancing Multimodal Unified Representations for Cross Modal Generalization</div>
+    <div class="pub-authors" markdown="1">**Hai Huang\***, Yan Xia\*, Shengpeng Ji, Shulei Wang, Hanting Wang, Minghui Fang, Jieming Zhu, Zhenhua Dong, Sashuai Zhou, Zhou Zhao</div>
+    <div class="pub-links" markdown="1">[Project](https://github.com/haihuangcode/CMG/tree/master/ACL25-FCID%26TOC)</div>
+  </div>
+</div>
 
-``CVPR 2025`` [Towards Transformer-Based Aligned Generation with Self-Coherence Guidance](https://arxiv.org/pdf/2503.17675), Shulei Wang, Wang Lin, **Hai Huang**, Hanting Wang, Sihang Cai, WenKang Han, Tao Jin, Jingyuan Chen, Jiacheng Sun, Jieming Zhu, Zhou Zhao
+<div class="pub-card">
+  <div class="pub-card-image">
+    <img src="{{ '/images/icassp2025_framework.jpg' | relative_url }}" alt="Semantic Residual">
+  </div>
+  <div class="pub-card-body" markdown="1">
+    <div class="pub-venue">ICASSP 2025</div>
+    <div class="pub-title" markdown="1">[Semantic Residual for Multimodal Unified Discrete Representation](https://arxiv.org/pdf/2412.19128.pdf)</div>
+    <div class="pub-authors" markdown="1">**Hai Huang**, Shulei Wang, Yan Xia</div>
+  </div>
+</div>
 
-``ACL 2025`` [Towards Simultaneous and Independent Zero-shot Speaker Cloning and Zero-shot Language Style Control](), Shengpeng Ji, Qian Chen, Wen Wang, Jialong Zuo, Minghui Fang, Ziyue Jiang, **Hai Huang**, Zehan Wang, Xize Cheng, Siqi Zheng, Zhou Zhao
+<div class="pub-card">
+  <div class="pub-card-image">
+    <img src="{{ '/images/Overcoming both Domain Shift and Label Shift for Referring Video Segmentation.jpg' | relative_url }}" alt="Referring Video Segmentation">
+  </div>
+  <div class="pub-card-body" markdown="1">
+    <div class="pub-venue">NAACL 2025 Findings</div>
+    <div class="pub-title" markdown="1">[Overcoming both Domain Shift and Label Shift for Referring Video Segmentation](https://aclanthology.org/2025.findings-naacl.167.pdf)</div>
+    <div class="pub-authors" markdown="1">**Hai Huang**, Sashuai Zhou, Yan Xia</div>
+  </div>
+</div>
 
-``ACL 2025 (Oral)`` [Bridging Discrete Codec Representations and Speech Language Models](), Shengpeng Ji, Minghui Fang, Jialong Zuo, Ziyue Jiang, Dingdong WANG, Hanting Wang, **Hai Huang**, Zhou Zhao
+# Honors
 
-``ACL 2025`` [ACE: A Generative Cross-Modal Retrieval Framework With Coarse-To-Fine Semantic Modeling](), Minghui Fang, Shengpeng Ji, Jialong Zuo, **Hai Huang**, Yan Xia, Jieming Zhu, Xize Cheng, Xiaoda Yang, Wenrui Liu, Gang Wang, Zhenhua Dong, Zhou Zhao
+* *2025.10* National Scholarship
+* *2021.10* First Prize, [RoboMaster Robotics Competition](https://www.robomaster.com)
 
-``ACM MM 2025`` [TAP: Parameter-efficient Task-Aware Prompting for Adverse Weather Removal](), Hanting Wang, Shulei Wang, Shengpeng Ji, **Hai Huang**, Xiao Jin, Qifei Zhang, Tao Jin
+# Education
 
-``ICME 2025 (Oral)`` [Enhancing Multi-modal Models with Heterogeneous MoE Adapters for Fine-tuning](https://arxiv.org/pdf/2503.20633), Sashuai Zhou, **Hai Huang**, Yan Xia
+* *2023.09 - 2026.03*, M.S. in Artificial Intelligence, Zhejiang University
+* *2019.09 - 2023.06*, B.S. in Computer Science and Technology, Northeastern University, China
 
-``NAACL 2025`` [Omni-Chart-600K: A Comprehensive Dataset of Chart Types for Chart Understanding](https://aclanthology.org/2025.findings-naacl.226.pdf), Shulei Wang, Shuai Yang, Wang Lin, Zirun Guo, Sihang Cai, **Hai Huang**, Ye Wang, Jingyuan Chen, Tao Jin
+# Experience
 
-
-# 🎖 Honors and Awards
-- *2025.10* National Scholarship
-- *2021.10* First Prize in the [RoboMaster Robotics Competition](https://www.robomaster.com)
-
-# 📖 Educations
-- *2023.09 - 2026.03*, M.S. in Artificial Intelligence, Zhejiang University
-- *2019.09 - 2023.06*, B.S. in Computer Science and Technology, Northeastern University (China)
-
-# 💻 Internships
-- *2025.01 - 2025.07*, Huawei, Pretraining a 6B-parameter image generation model (DiT)
+* *2025.01 - 2025.07*, Huawei, pretraining a 6B-parameter image generation model based on DiT
