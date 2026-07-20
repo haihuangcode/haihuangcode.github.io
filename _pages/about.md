@@ -138,9 +138,7 @@ redirect_from:
 
 <div class="intro-card" markdown="1">
 
-I am currently with the **Meituan LongCat Team**, working on **unified multimodal models**.
-
-<span class="intro-subtle">My recent work focuses on multimodal representation learning, unified understanding-generation systems.</span>
+I am currently with the **Meituan LongCat Team(北斗计划)**, working on **unified multimodal models**.
 
 <div class="contact-line">
 Contact: <a href="mailto:haihuangcode@outlook.com">haihuangcode@outlook.com</a>
@@ -229,7 +227,8 @@ Yan Xia*, **Hai Huang***, Jieming Zhu, Zhou Zhao
 
 * *2025.10* National Scholarship
 * *2021.10* First Prize, [RoboMaster Robotics Competition](https://www.robomaster.com)
-
+  
+<!-- 
 # Education
 
 * *2023.09 - 2026.03*, M.S. in Artificial Intelligence, Zhejiang University
@@ -238,3 +237,4 @@ Yan Xia*, **Hai Huang***, Jieming Zhu, Zhou Zhao
 # Experience
 
 * *2025.01 - 2025.07*, Huawei, pretraining a 6B-parameter image generation model based on DiT
+-->
