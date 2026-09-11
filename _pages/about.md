@@ -138,7 +138,7 @@ redirect_from:
 
 <div class="intro-card" markdown="1">
 
-I am currently with the **Meituan LongCat Team(北斗计划)**, working on **unified multimodal models**.
+I am currently with the **Meituan LongCat Team(北斗计划)**, working on **Native Multimodal LLM Pretrain**.
 
 <div class="contact-line">
 Contact: <a href="mailto:haihuangcode@outlook.com">haihuangcode@outlook.com</a>
