@@ -145,10 +145,7 @@ Contact: <a href="mailto:haihuangcode@outlook.com">haihuangcode@outlook.com</a>
 </div>
 
 <div class="research-tags">
-<span>Multimodal Learning</span>
-<span>Unified Multimodal Models</span>
-<span>Cross-modal Generalization</span>
-<span>Understanding & Generation</span>
+<span>Multimodal Representation Learning --> VLM Visual Understanding --> Unified Multimodal Models Generation --> Native Multimodal LLM Pretrain</span>
 </div>
 
 </div>
