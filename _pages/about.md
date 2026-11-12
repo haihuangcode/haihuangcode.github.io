@@ -145,7 +145,8 @@ Contact: <a href="mailto:haihuangcode@outlook.com">haihuangcode@outlook.com</a>
 </div>
 
 <div class="research-tags">
-<span>Multimodal Representation Learning --> VLM Visual Understanding --> Unified Multimodal Models Generation --> Native Multimodal LLM Pretrain</span>
+<span>Native Multimodal LLM Pretrain focus on ViT Pretrain</span>
+<span>3D Blender and CAD posttrain agentic</span>
 </div>
 
 </div>
