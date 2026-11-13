@@ -93,7 +93,7 @@ html { scroll-padding-top: 76px; }
   </svg>
 
   <div id="about-me">
-    <p class="profile-intro">I am currently with the <strong>Meituan LongCat Team</strong> (<span lang="zh-CN">北斗计划</span>), working on <strong>native multimodal LLM pretraining</strong>. My research focuses on visual representations and ViT pretraining, with interests in 3D, Blender, CAD, and agentic post-training.</p>
+    <p class="profile-intro">I am currently with the <strong>Meituan LongCat Team</strong> (<span lang="zh-CN">北斗计划</span>), working on <strong>native multimodal LLM pretraining</strong>. My research interests include visual representations (ViT pretraining and encoder-free approaches) and agentic post-training to enhance 3D, Blender, and CAD capabilities.</p>
     <p class="profile-contact"><a href="mailto:haihuangcode@outlook.com" target="_self">haihuangcode@outlook.com</a><a href="https://github.com/haihuangcode" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 496 512" aria-hidden="true" focusable="false"><use href="#profile-github"></use></svg> GitHub</a></p>
   </div>
   <nav class="profile-nav" aria-label="Page sections">
