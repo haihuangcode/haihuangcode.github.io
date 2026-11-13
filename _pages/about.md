@@ -44,7 +44,6 @@ html { scroll-padding-top: 76px; }
 .repo-stars .star-icon { width: 11px; height: 11px; color: #777; }
 .paper-group .hh-paper { grid-template-columns: 150px minmax(0, 1fr); gap: 20px; padding: 14px 0; }
 .academic-home .paper-group h4 { margin: 0 0 5px; font-size: 15px; font-weight: 600; line-height: 1.55; }
-.hh-paper-links .github-icon { margin-right: 3px; }
 .hh-paper { display: grid; grid-template-columns: 180px minmax(0, 1fr); align-items: center; gap: 22px; padding: 19px 0; border-bottom: 1px solid #ededed; }
 .hh-paper:last-child { border: 0; }
 .hh-paper-figure { display: flex; align-items: center; justify-content: center; aspect-ratio: 1.6; overflow: hidden; border: 1px solid #eee; border-radius: 4px; background: #fff; }
@@ -53,9 +52,7 @@ html { scroll-padding-top: 76px; }
 .hh-venue { display: inline-block; margin-bottom: 5px; color: #53667c; font-size: 12px; font-weight: 600; }
 .academic-home .hh-paper-authors { margin: 0; color: #666; font-size: 12px; line-height: 1.8; }
 .hh-paper-authors strong { color: #333; font-weight: 600; }
-.hh-paper-links { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 7px; font-size: 12px; }
-.hh-paper-links a { padding: 2px 0; }
-.show_paper_citations { color: #666; }
+.show_paper_citations { color: #666; font-size: 12px; }
 .honor-list { margin: 0; padding: 0; list-style: none; }
 .honor-list li { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; margin: 0; padding: 7px 0; font-size: 13px; }
 .honor-list time { color: #707070; font-size: 12px; }
@@ -113,9 +110,9 @@ html { scroll-padding-top: 76px; }
       <div class="work-links"><a href="https://longcat.ai/blog/longcat-2.5" target="_blank" rel="noopener noreferrer">Tech blog</a><a href="https://huggingface.co/meituan-longcat/LongCat-2.5" target="_blank" rel="noopener noreferrer">Model</a></div>
     </article>
     <article class="recent-work">
-      <h3><a href="https://huggingface.co/papers/2611.12426" target="_blank" rel="noopener noreferrer">dNaViT: Discrete Codes are General-Purpose Visual Representations</a></h3>
+      <h3><a href="https://arxiv.org/pdf/2611.12426" target="_blank" rel="noopener noreferrer">dNaViT: Discrete Codes are General-Purpose Visual Representations</a></h3>
       <p>Shared discrete visual codes for understanding, generation, and editing.</p>
-      <div class="work-links"><a href="https://arxiv.org/abs/2611.12426" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://huggingface.co/papers/2611.12426" target="_blank" rel="noopener noreferrer">Hugging Face</a></div>
+      <div class="work-links"><a href="https://huggingface.co/papers/2611.12426" target="_blank" rel="noopener noreferrer">Hugging Face</a></div>
     </article>
   </section>
 
@@ -132,33 +129,33 @@ html { scroll-padding-top: 76px; }
       </div>
       <article class="hh-paper">
         <div class="hh-paper-figure"><img src="{{ '/images/OSCMG_framework.jpg' | relative_url }}" alt="Framework for open-set cross-modal generalization" width="640" height="400" loading="lazy" decoding="async"></div>
-        <div><span class="hh-venue">ICCV 2025</span><h4>Open-set Cross Modal Generalization via Multimodal Unified Representation</h4><p class="hh-paper-authors"><strong>Hai Huang</strong>, Yan Xia, Shulei Wang, Hanting Wang, Minghui Fang, Shengpeng Ji, Sashuai Zhou, Tao Jin, Zhou Zhao</p><div class="hh-paper-links"><a href="https://github.com/haihuangcode/CMG/tree/master/ICCV25-OSCMG" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 496 512" aria-hidden="true" focusable="false"><use href="#profile-github"></use></svg> Code</a></div></div>
+        <div><span class="hh-venue">ICCV 2025</span><h4><a href="https://arxiv.org/pdf/2507.14935" target="_blank" rel="noopener noreferrer">Open-set Cross Modal Generalization via Multimodal Unified Representation</a></h4><p class="hh-paper-authors"><strong>Hai Huang</strong>, Yan Xia, Shulei Wang, Hanting Wang, Minghui Fang, Shengpeng Ji, Sashuai Zhou, Tao Jin, Zhou Zhao</p></div>
       </article>
 
       <article class="hh-paper">
         <div class="hh-paper-figure"><img src="{{ '/images/ACL2025_TOC.jpg' | relative_url }}" alt="Training-free codebook optimization for multimodal representations" width="640" height="400" loading="lazy" decoding="async"></div>
-        <div><span class="hh-venue">ACL 2025 · Findings</span><h4>Enhancing Multimodal Unified Representations for Cross Modal Generalization</h4><p class="hh-paper-authors"><strong>Hai Huang*</strong>, Yan Xia*, Shengpeng Ji, Shulei Wang, Hanting Wang, Minghui Fang, Jieming Zhu, Zhenhua Dong, Sashuai Zhou, Zhou Zhao</p><div class="hh-paper-links"><a href="https://github.com/haihuangcode/CMG/tree/master/ACL25-FCID%26TOC" target="_blank" rel="noopener noreferrer"><svg class="github-icon" viewBox="0 0 496 512" aria-hidden="true" focusable="false"><use href="#profile-github"></use></svg> Code</a></div></div>
+        <div><span class="hh-venue">ACL 2025 · Findings</span><h4><a href="https://aclanthology.org/2025.findings-acl.119.pdf" target="_blank" rel="noopener noreferrer">Enhancing Multimodal Unified Representations for Cross Modal Generalization</a></h4><p class="hh-paper-authors"><strong>Hai Huang*</strong>, Yan Xia*, Shengpeng Ji, Shulei Wang, Hanting Wang, Minghui Fang, Jieming Zhu, Zhenhua Dong, Sashuai Zhou, Zhou Zhao</p></div>
       </article>
 
       <article class="hh-paper">
         <div class="hh-paper-figure"><img src="{{ '/images/Achieving%20Cross%20Modal%20Generalization%20with%20Multimodal%20Unified%20Representation_overview.png' | relative_url }}" alt="Overview of cross-modal generalization with multimodal unified representations" width="640" height="400" loading="lazy" decoding="async"></div>
-        <div><span class="hh-venue">NeurIPS 2023</span><h4><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/c89f09849eb5af489abb122394ff0f0b-Abstract-Conference.html" target="_blank" rel="noopener noreferrer">Achieving Cross Modal Generalization with Multimodal Unified Representation</a></h4><p class="hh-paper-authors">Yan Xia*, <strong>Hai Huang*</strong>, Jieming Zhu, Zhou Zhao</p><div class="hh-paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/c89f09849eb5af489abb122394ff0f0b-Abstract-Conference.html" target="_blank" rel="noopener noreferrer">Paper</a><span class="show_paper_citations" data="FKvBzQwAAAAJ:u5HHmVD_uO8C"></span></div></div>
+        <div><span class="hh-venue">NeurIPS 2023</span><h4><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/c89f09849eb5af489abb122394ff0f0b-Paper-Conference.pdf" target="_blank" rel="noopener noreferrer">Achieving Cross Modal Generalization with Multimodal Unified Representation</a></h4><p class="hh-paper-authors">Yan Xia*, <strong>Hai Huang*</strong>, Jieming Zhu, Zhou Zhao</p><span class="show_paper_citations" data="FKvBzQwAAAAJ:u5HHmVD_uO8C"></span></div>
       </article>
     </section>
 
     <article class="hh-paper">
       <div class="hh-paper-figure"><img src="{{ '/images/URMMDG_framework.jpg' | relative_url }}" alt="Framework for multimodal domain generalization using unified representations" width="640" height="400" loading="lazy" decoding="async"></div>
-      <div><span class="hh-venue">ICCV 2025</span><h3>Bridging Domain Generalization to Multimodal Domain Generalization via Unified Representations</h3><p class="hh-paper-authors"><strong>Hai Huang</strong>, Yan Xia, Sashuai Zhou, Hanting Wang, Shulei Wang, Zhou Zhao</p></div>
+      <div><span class="hh-venue">ICCV 2025</span><h3><a href="https://arxiv.org/pdf/2507.03304" target="_blank" rel="noopener noreferrer">Bridging Domain Generalization to Multimodal Domain Generalization via Unified Representations</a></h3><p class="hh-paper-authors"><strong>Hai Huang</strong>, Yan Xia, Sashuai Zhou, Hanting Wang, Shulei Wang, Zhou Zhao</p></div>
     </article>
 
     <article class="hh-paper">
       <div class="hh-paper-figure"><img src="{{ '/images/icassp2025_framework.jpg' | relative_url }}" alt="Semantic residual method for multimodal unified discrete representations" width="640" height="400" loading="lazy" decoding="async"></div>
-      <div><span class="hh-venue">ICASSP 2025</span><h3><a href="https://arxiv.org/pdf/2412.19128.pdf" target="_blank" rel="noopener noreferrer">Semantic Residual for Multimodal Unified Discrete Representation</a></h3><p class="hh-paper-authors"><strong>Hai Huang</strong>, Shulei Wang, Yan Xia</p><div class="hh-paper-links"><a href="https://arxiv.org/pdf/2412.19128.pdf" target="_blank" rel="noopener noreferrer">Paper</a></div></div>
+      <div><span class="hh-venue">ICASSP 2025</span><h3><a href="https://arxiv.org/pdf/2412.19128.pdf" target="_blank" rel="noopener noreferrer">Semantic Residual for Multimodal Unified Discrete Representation</a></h3><p class="hh-paper-authors"><strong>Hai Huang</strong>, Shulei Wang, Yan Xia</p></div>
     </article>
 
     <article class="hh-paper">
       <div class="hh-paper-figure"><img src="{{ '/images/Overcoming%20both%20Domain%20Shift%20and%20Label%20Shift%20for%20Referring%20Video%20Segmentation.jpg' | relative_url }}" alt="Method for addressing domain and label shifts in referring video segmentation" width="640" height="400" loading="lazy" decoding="async"></div>
-      <div><span class="hh-venue">NAACL 2025 · Findings</span><h3><a href="https://aclanthology.org/2025.findings-naacl.167.pdf" target="_blank" rel="noopener noreferrer">Overcoming both Domain Shift and Label Shift for Referring Video Segmentation</a></h3><p class="hh-paper-authors"><strong>Hai Huang</strong>, Sashuai Zhou, Yan Xia</p><div class="hh-paper-links"><a href="https://aclanthology.org/2025.findings-naacl.167.pdf" target="_blank" rel="noopener noreferrer">Paper</a></div></div>
+      <div><span class="hh-venue">NAACL 2025 · Findings</span><h3><a href="https://aclanthology.org/2025.findings-naacl.167.pdf" target="_blank" rel="noopener noreferrer">Overcoming both Domain Shift and Label Shift for Referring Video Segmentation</a></h3><p class="hh-paper-authors"><strong>Hai Huang</strong>, Sashuai Zhou, Yan Xia</p></div>
     </article>
   </section>
 
