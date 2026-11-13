@@ -34,6 +34,16 @@ html { scroll-padding-top: 76px; }
 .academic-home .recent-work p { margin: 0 0 5px; color: #666; font-size: 13px; }
 .work-links { display: flex; flex-wrap: wrap; gap: 16px; font-size: 12px; }
 .work-links a { padding: 2px 0; }
+.paper-group { margin: 8px 0 4px; padding-bottom: 4px; border-bottom: 1px solid #e7e7e7; }
+.paper-group-header { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding: 12px 0 4px; }
+.academic-home .paper-group-header h3 { flex: 1; margin: 0; font-size: 15px; }
+.academic-home .repo-link { display: inline-flex; align-items: center; gap: 6px; padding: 3px 0; color: #48515a; font-size: 12px; white-space: nowrap; }
+.repo-link > .fa-github { font-size: 15px; }
+.repo-stars { display: inline-flex; align-items: center; gap: 5px; margin-left: 3px; padding-left: 9px; border-left: 1px solid #ddd; color: #666; font-variant-numeric: tabular-nums; }
+.repo-stars .fa-star { font-size: 11px; color: #777; }
+.paper-group .hh-paper { grid-template-columns: 150px minmax(0, 1fr); gap: 20px; padding: 14px 0; }
+.academic-home .paper-group h4 { margin: 0 0 5px; font-size: 15px; font-weight: 600; line-height: 1.55; }
+.hh-paper-links .fa-github { margin-right: 3px; }
 .hh-paper { display: grid; grid-template-columns: 180px minmax(0, 1fr); align-items: center; gap: 22px; padding: 19px 0; border-bottom: 1px solid #ededed; }
 .hh-paper:last-child { border: 0; }
 .hh-paper-figure { display: flex; align-items: center; justify-content: center; aspect-ratio: 1.6; overflow: hidden; border: 1px solid #eee; border-radius: 4px; background: #fff; }
@@ -53,11 +63,11 @@ html { scroll-padding-top: 76px; }
   #main { margin-top: 16px; }
   .academic-home { font-size: 14px; }
   .academic-home h2 { margin-top: 24px; font-size: 20px; }
-  .hh-paper { grid-template-columns: 140px minmax(0, 1fr); gap: 18px; }
+  .hh-paper, .paper-group .hh-paper { grid-template-columns: 140px minmax(0, 1fr); gap: 18px; }
 }
 @media (max-width: 560px) {
   .profile-nav { gap: 18px; margin: 12px 0 20px; }
-  .hh-paper { grid-template-columns: 1fr; gap: 12px; padding: 18px 0; }
+  .hh-paper, .paper-group .hh-paper { grid-template-columns: 1fr; gap: 12px; padding: 18px 0; }
   .hh-paper-figure { aspect-ratio: 2; }
   .hh-paper-figure img { padding: 10px; }
   .academic-home .hh-paper-authors { font-size: 12px; }
@@ -78,7 +88,7 @@ html { scroll-padding-top: 76px; }
 <div class="academic-home">
   <div id="about-me">
     <p class="profile-intro">I am currently with the <strong>Meituan LongCat Team</strong> (<span lang="zh-CN">北斗计划</span>), working on <strong>native multimodal LLM pretraining</strong>. My research focuses on visual representations and ViT pretraining, with interests in 3D, Blender, CAD, and agentic post-training.</p>
-    <p class="profile-contact"><a href="mailto:haihuangcode@outlook.com" target="_self">haihuangcode@outlook.com</a><a href="https://github.com/haihuangcode" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    <p class="profile-contact"><a href="mailto:haihuangcode@outlook.com" target="_self">haihuangcode@outlook.com</a><a href="https://github.com/haihuangcode" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></p>
   </div>
   <nav class="profile-nav" aria-label="Page sections">
     <a href="#recent-work" target="_self" data-ss-opts='{"offset":-76,"speed":0}'>Recent work</a>
@@ -103,19 +113,33 @@ html { scroll-padding-top: 76px; }
   <section id="publications" aria-labelledby="publications-title">
     <h2 id="publications-title">Publications</h2>
     <p class="section-note">* Equal contribution.</p>
+    <section class="paper-group" aria-labelledby="cmg-title">
+      <div class="paper-group-header">
+        <h3 id="cmg-title">CMG series</h3>
+        <a class="repo-link" href="https://github.com/haihuangcode/CMG" target="_blank" rel="noopener noreferrer" title="haihuangcode/CMG on GitHub">
+          <i class="fab fa-github" aria-hidden="true"></i> GitHub
+          <span class="repo-stars"><i class="fas fa-star" role="img" aria-label="Stars"></i><span data-github-stars="haihuangcode/CMG">239</span></span>
+        </a>
+      </div>
+      <article class="hh-paper">
+        <div class="hh-paper-figure"><img src="{{ '/images/OSCMG_framework.jpg' | relative_url }}" alt="Framework for open-set cross-modal generalization" width="640" height="400" loading="lazy" decoding="async"></div>
+        <div><span class="hh-venue">ICCV 2025</span><h4>Open-set Cross Modal Generalization via Multimodal Unified Representation</h4><p class="hh-paper-authors"><strong>Hai Huang</strong>, Yan Xia, Shulei Wang, Hanting Wang, Minghui Fang, Shengpeng Ji, Sashuai Zhou, Tao Jin, Zhou Zhao</p><div class="hh-paper-links"><a href="https://github.com/haihuangcode/CMG/tree/master/ICCV25-OSCMG" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code</a></div></div>
+      </article>
+
+      <article class="hh-paper">
+        <div class="hh-paper-figure"><img src="{{ '/images/ACL2025_TOC.jpg' | relative_url }}" alt="Training-free codebook optimization for multimodal representations" width="640" height="400" loading="lazy" decoding="async"></div>
+        <div><span class="hh-venue">ACL 2025 · Findings</span><h4>Enhancing Multimodal Unified Representations for Cross Modal Generalization</h4><p class="hh-paper-authors"><strong>Hai Huang*</strong>, Yan Xia*, Shengpeng Ji, Shulei Wang, Hanting Wang, Minghui Fang, Jieming Zhu, Zhenhua Dong, Sashuai Zhou, Zhou Zhao</p><div class="hh-paper-links"><a href="https://github.com/haihuangcode/CMG/tree/master/ACL25-FCID%26TOC" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> Code</a></div></div>
+      </article>
+
+      <article class="hh-paper">
+        <div class="hh-paper-figure"><img src="{{ '/images/Achieving%20Cross%20Modal%20Generalization%20with%20Multimodal%20Unified%20Representation_overview.png' | relative_url }}" alt="Overview of cross-modal generalization with multimodal unified representations" width="640" height="400" loading="lazy" decoding="async"></div>
+        <div><span class="hh-venue">NeurIPS 2023</span><h4><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/c89f09849eb5af489abb122394ff0f0b-Abstract-Conference.html" target="_blank" rel="noopener noreferrer">Achieving Cross Modal Generalization with Multimodal Unified Representation</a></h4><p class="hh-paper-authors">Yan Xia*, <strong>Hai Huang*</strong>, Jieming Zhu, Zhou Zhao</p><div class="hh-paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/c89f09849eb5af489abb122394ff0f0b-Abstract-Conference.html" target="_blank" rel="noopener noreferrer">Paper</a><span class="show_paper_citations" data="FKvBzQwAAAAJ:u5HHmVD_uO8C"></span></div></div>
+      </article>
+    </section>
+
     <article class="hh-paper">
       <div class="hh-paper-figure"><img src="{{ '/images/URMMDG_framework.jpg' | relative_url }}" alt="Framework for multimodal domain generalization using unified representations" width="640" height="400" loading="lazy" decoding="async"></div>
       <div><span class="hh-venue">ICCV 2025</span><h3>Bridging Domain Generalization to Multimodal Domain Generalization via Unified Representations</h3><p class="hh-paper-authors"><strong>Hai Huang</strong>, Yan Xia, Sashuai Zhou, Hanting Wang, Shulei Wang, Zhou Zhao</p></div>
-    </article>
-
-    <article class="hh-paper">
-      <div class="hh-paper-figure"><img src="{{ '/images/OSCMG_framework.jpg' | relative_url }}" alt="Framework for open-set cross-modal generalization" width="640" height="400" loading="lazy" decoding="async"></div>
-      <div><span class="hh-venue">ICCV 2025</span><h3>Open-set Cross Modal Generalization via Multimodal Unified Representation</h3><p class="hh-paper-authors"><strong>Hai Huang</strong>, Yan Xia, Shulei Wang, Hanting Wang, Minghui Fang, Shengpeng Ji, Sashuai Zhou, Tao Jin, Zhou Zhao</p><div class="hh-paper-links"><a href="https://github.com/haihuangcode/CMG/tree/master/ICCV25-OSCMG" target="_blank" rel="noopener noreferrer">Project</a></div></div>
-    </article>
-
-    <article class="hh-paper">
-      <div class="hh-paper-figure"><img src="{{ '/images/ACL2025_TOC.jpg' | relative_url }}" alt="Training-free codebook optimization for multimodal representations" width="640" height="400" loading="lazy" decoding="async"></div>
-      <div><span class="hh-venue">ACL 2025 · Findings</span><h3>Enhancing Multimodal Unified Representations for Cross Modal Generalization</h3><p class="hh-paper-authors"><strong>Hai Huang*</strong>, Yan Xia*, Shengpeng Ji, Shulei Wang, Hanting Wang, Minghui Fang, Jieming Zhu, Zhenhua Dong, Sashuai Zhou, Zhou Zhao</p><div class="hh-paper-links"><a href="https://github.com/haihuangcode/CMG/tree/master/ACL25-FCID%26TOC" target="_blank" rel="noopener noreferrer">Project</a></div></div>
     </article>
 
     <article class="hh-paper">
@@ -126,11 +150,6 @@ html { scroll-padding-top: 76px; }
     <article class="hh-paper">
       <div class="hh-paper-figure"><img src="{{ '/images/Overcoming%20both%20Domain%20Shift%20and%20Label%20Shift%20for%20Referring%20Video%20Segmentation.jpg' | relative_url }}" alt="Method for addressing domain and label shifts in referring video segmentation" width="640" height="400" loading="lazy" decoding="async"></div>
       <div><span class="hh-venue">NAACL 2025 · Findings</span><h3><a href="https://aclanthology.org/2025.findings-naacl.167.pdf" target="_blank" rel="noopener noreferrer">Overcoming both Domain Shift and Label Shift for Referring Video Segmentation</a></h3><p class="hh-paper-authors"><strong>Hai Huang</strong>, Sashuai Zhou, Yan Xia</p><div class="hh-paper-links"><a href="https://aclanthology.org/2025.findings-naacl.167.pdf" target="_blank" rel="noopener noreferrer">Paper</a></div></div>
-    </article>
-
-    <article class="hh-paper">
-      <div class="hh-paper-figure"><img src="{{ '/images/Achieving%20Cross%20Modal%20Generalization%20with%20Multimodal%20Unified%20Representation_overview.png' | relative_url }}" alt="Overview of cross-modal generalization with multimodal unified representations" width="640" height="400" loading="lazy" decoding="async"></div>
-      <div><span class="hh-venue">NeurIPS 2023</span><h3><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/c89f09849eb5af489abb122394ff0f0b-Abstract-Conference.html" target="_blank" rel="noopener noreferrer">Achieving Cross Modal Generalization with Multimodal Unified Representation</a></h3><p class="hh-paper-authors">Yan Xia*, <strong>Hai Huang*</strong>, Jieming Zhu, Zhou Zhao</p><div class="hh-paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/c89f09849eb5af489abb122394ff0f0b-Abstract-Conference.html" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://github.com/haihuangcode/CMG" target="_blank" rel="noopener noreferrer">Project</a><span class="show_paper_citations" data="FKvBzQwAAAAJ:u5HHmVD_uO8C"></span></div></div>
     </article>
   </section>
 
@@ -145,6 +164,38 @@ html { scroll-padding-top: 76px; }
   <!-- Required by the theme's shared Google Scholar citation loader. -->
   <span id="total_cit" hidden></span>
 </div>
+
+<script>
+(function () {
+  if (!window.fetch) return;
+  document.querySelectorAll('[data-github-stars]').forEach(function (el) {
+    var repo = el.getAttribute('data-github-stars');
+    var key = 'github-stars:' + repo;
+    function valid(count) { return Number.isSafeInteger(count) && count >= 0; }
+    function show(count) { el.textContent = count.toLocaleString('en-US'); }
+    try {
+      var cached = JSON.parse(localStorage.getItem(key));
+      if (cached && valid(cached.count)) {
+        show(cached.count);
+        var age = Date.now() - cached.time;
+        if (age >= 0 && age < 3600000) return;
+      }
+    } catch (error) { /* Storage can be unavailable in private browsing. */ }
+    fetch('https://api.github.com/repos/' + repo, {
+      headers: { Accept: 'application/vnd.github+json' }
+    }).then(function (response) {
+      if (!response.ok) throw new Error('GitHub stars unavailable');
+      return response.json();
+    }).then(function (data) {
+      if (!valid(data.stargazers_count)) return;
+      show(data.stargazers_count);
+      try {
+        localStorage.setItem(key, JSON.stringify({ count: data.stargazers_count, time: Date.now() }));
+      } catch (error) { /* The visible count also works without storage. */ }
+    }).catch(function () { /* Keep the last known count if GitHub is unavailable. */ });
+  });
+}());
+</script>
 
 <!--
 Education (kept from the original page; not displayed):
